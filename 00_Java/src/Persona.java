@@ -15,4 +15,5 @@ public class Persona {
 	//* public -> En todos los sitios :) :)
 	int edad;
 	
+	
 }
