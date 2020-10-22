@@ -14,6 +14,6 @@ public class Persona {
 	//protected -> En las heredadas, en el paquete y en la clase
 	//* public -> En todos los sitios :) :)
 	int edad;
-	
+	static int numeroPersonas;
 	
 }
