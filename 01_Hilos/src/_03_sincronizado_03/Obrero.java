@@ -23,17 +23,20 @@ public class Obrero extends Thread{
 	public void ponerLadrillos() {
 		for(int i = inicioLadrillo;i<=finLadrillo;i++) {
 			System.out.println("Obrero " + nombre + " esta Poniendo el ladrillo " + i);
+			try {
+				Thread.sleep(1000);
+				//este sleep simula el tiempo que tarda el obrero
+				//en poner un ladrillo
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}			
 			//cada 10 ladrillos un obrero descansa
 			//y se sienta en la silla durante 10 segundo
 			if(i % 10 == 0) {
 				silla.descansar(this);
 			}
-			try {
-				Thread.sleep(1000);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
+			
 		}
 	}
 
