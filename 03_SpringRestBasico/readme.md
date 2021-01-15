@@ -1,3 +1,19 @@
+HTTP
+-
+HTTP es posiblemente le protocolo de comunicación más importante de la historia de
+internet. Es un protocolo el cual establece unas pautas para la comunicacion entre
+dos dispositivos conectados en una red.
+
+En la carpeta dibujos podemos encontrar ejemplos.
+
+biblio:
+https://developer.mozilla.org/es/docs/Web/HTTP/Overview
+https://developer.mozilla.org/es/docs/Web/HTTP
+https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_hipertexto
+
+lista de tipos mime completa:
+https://developer.mozilla.org/es/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types
+
 Proyecto Springboot Rest
 -
 Este ejemplo es la creacion de un proyecto spring boot para hacer un servicio REST
@@ -28,3 +44,8 @@ en nuestro caso, las daremos de alta en el paquete "com.uem.restbasico.controlad
 Si el puerto del tomcat da fallo podeis cambiarlo en 
 "src/main/resources/applicatioin.properties"
 
+Probar todos los metodos http
+-
+Para probar todos los verbos o metoso http necesitamos una app que nos lo permita
+hacer, podemos utilizar POSTMAN
+https://www.postman.com/downloads/
